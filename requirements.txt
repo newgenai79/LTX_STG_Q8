@@ -1,4 +1,4 @@
---extra-index-url https://download.pytorch.org/whl/cu111
+--extra-index-url https://download.pytorch.org/whl/cu124
 accelerate==1.1.1
 aiofiles==23.2.1
 annotated-types==0.7.0
