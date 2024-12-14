@@ -1,0 +1,36 @@
+# Model and input paths
+ckpt_path: "Lightricks/LTX-Video"
+input_video_path: null
+input_image_path: null
+output_path: null
+
+# Generation parameters
+seed: 171198
+
+# Pipeline parameters
+num_inference_steps: 10
+num_images_per_prompt: 1
+guidance_scale: 3.0
+image_cond_noise_scale: 0.15
+
+# Spatio Temporal Skip Guidance (STG) parameters
+stg_mode: "stg-a"
+stg_scale: 1.0
+stg_block_idx: 19
+do_rescaling: True
+rescaling_scale: 0.7
+
+# Video parameters
+height: 480
+width: 704
+num_frames: 257
+frame_rate: 25
+
+# Text prompts
+prompt: >
+    The waves crash against the jagged rocks of the shoreline, sending spray high into the air.
+    The rocks are a dark gray color, with sharp edges and deep crevices. 
+    The water is a clear blue-green, with white foam where the waves break against the rocks. 
+    The sky is a light gray, with a few white clouds dotting the horizon.
+negative_prompt: "worst quality, inconsistent motion, blurry, jittery, distorted"
+
